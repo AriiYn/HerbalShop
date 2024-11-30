@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', cursive;
+}
+
+header .navbar{
+    height: 70px;
+    background-color: green;
+    padding: 1rem 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .navbar .logo h3{
+    color: limegreen;
+    width: 50px;
+}
+
+header .navbar .logo span{
+    color: lime;
+}
+
+
+header .navbar .navigation ul{
+    display: flex;
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header .Icon ul{
+    display: flex;
+    list-style: none;
+}
+
+header li{
+    margin-right: 30px;
+}
+
+.hero .card{
+    height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0rem 6%;
+}
+
+.hero .card1{
+    background-image: url('../bg/bg1.jpg');
+}
+
+.specialFood{
+    padding-inline: 20px;
+    margin-bottom: 50px;
+}
+
+.specialFood .text{
+    padding-inline: 30px;
+    font-family: Arial;
+}
+
+.specialFood .title{
+    text-align: 5px;
+}
+
+.specialFood .title h3{
+    font-size: 30px;
+    padding: 20px;
+    color: green;
+}
+
+.flex{
+    display: flex;
+    padding-inline: 5px;
+}
+
+.cardproduk{
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.cardproduk:hover{
+    box-shadow: 2px 6px 5px gray;
+    transition: 0.3s;
+}
+
+.img-cardproduk{
+    max-width: 200px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.imgproduk{
+    width: 100%;
+}
+
+.hargaproduk{
+    color: #8bc34a;
+}
+
+.btn-block{
+    width: 100%;
+    background-color: #8bc34a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 2px;
+}
+
+.block{
+    width: 200px;
+    background-color: #8bc34a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 2px;
+}
+
+.btn-pesan{
+    padding: 55px;
+    color: white;
+    text-decoration: none;
+}
+
+.sale{
+    padding: 0 4%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale .card1{
+    background-image: url('../bg/bg4.jpg');
+    height: 300px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.sale .card2{
+    background-image: url('../bg/bg5.jpg');
+    height: 300px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer{
+    background-color: green;
+    padding: 2rem 4%;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style: none;
+    padding-inline: 5px;
+}
+
+footer ul li{
+    margin-top: 15px;
+}
+
+footer i{
+    margin-right: 10px;
+}
+
+footer h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer p{
+    margin-bottom: 10px;
+}
+
+footer input{
+    padding: 10px;
+}
+
+footer button{
+    background: linear-gradient(90deg, rgba(80,14,126,1) 0%, rgba(28,127,218,1) 100%);
+    padding: 12px;
+    border: none;
+    color: #fff;
+}

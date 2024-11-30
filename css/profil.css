@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana;
+}
+
+.container{
+    margin: 50px;
+}
+
+.col-auto img{
+    height: 100px; 
+    width: 100px;
+}
+
+.col h2{
+    margin: 30px;
+}
+
+.form-login button{
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    background: #068622;
+    width: 100px;
+    padding: 12px;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+}
